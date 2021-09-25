@@ -26,3 +26,101 @@ Pod čáru přijde tvůj kód
 body {
 	background-color: #bdc3c7;
 }
+
+p{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 15px;
+	color: white;
+	padding-top: 10px;
+}
+
+.jmeno{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 30px;
+	color: white;
+}
+
+img.foto{
+	width: 300px;
+	position: absolute;
+	left: 20px;
+	top: 20px;
+}
+
+img.logo{
+	background-color: #b92e81;
+	border-radius: 50%;
+	position: absolute;
+	left: 230px;
+	top: 195px;
+
+}
+
+.obsah{
+	margin-top: 200px;
+	width: 300px;
+	margin-left: 12px;
+	padding: 20px;
+	background-color:#31363b;
+}
+
+.odkazy{
+	background-color:#31363b;
+	width: 300px;
+	height: 97px;
+	margin-top: 0;
+	list-style-type: none;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+	margin-bottom: 0;
+	padding: 0;
+	margin-left: 12px;
+}
+
+.portfolio{
+	display: inline-block;
+	position: relative;
+	padding: 15px;
+	width: 300px;
+	text-align: center;
+	
+
+}
+
+.facebook{
+	display: inline-block;
+	position: relative;
+	padding: 15px;
+	width: 150px;
+	text-align: center;
+
+}
+
+.twitter{
+	display: inline-block;
+	position: relative;
+	padding: 15px;
+	width: 150px;
+	text-align: center;
+}
+
+a{
+	color: white;
+	text-decoration: none;
+}
+
+.profil{
+	margin: 0;
+}
+
+:hover.portfolio{
+	background-color: #e74c3c;
+}
+
+:hover.facebook{
+	background-color: #3b5998;
+}
+
+:hover.twitter{
+	background-color: #1da1f2;
+}
